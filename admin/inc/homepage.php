@@ -10,13 +10,19 @@
 
 <body>
     <style>
-        body {}
-
+        body {
+            text-align: justify;
+            
+        }
+#docs{
+    margin-left: 1%;
+    margin-right: 2%;
+}
         h1 {
             margin-top: 20px;
             color: orange;
             text-align: center;
-            text-shadow: 5px orangered;
+            text-shadow:  0 0 1px orangered;
         }
 
         .container {
@@ -35,11 +41,77 @@
         p {
             /* text-align: center; */
         }
-
-        #docs {
-            margin-left: 2%;
-            margin-right: 2%
+        @media  screen and (min-width:375px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 180px;
+            width: 390px;
         }
+        h1{
+            font-size: 22px ;
+        }
+
+}
+@media  screen and (min-width:450px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 275px;
+            width: 560px;
+        }
+        h1{
+            font-size: 27px ;
+        }
+
+}
+@media  screen and (min-width:900px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 325px;
+            width: 760px;
+        }
+        h1{
+            font-size: 30px ;
+        }
+
+}
+@media (min-width:1280px){
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 400px;
+            width: 700px;
+        }
+        h1{
+            font-size: 35px ;
+        }
+
+}
+@media  screen and (max-width:412px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 400px;
+        }
+        h1{
+            font-size: 25px ;
+        }
+
+}
+      
+
+
+      
+  
+    
     </style>
     <div class="container">
 

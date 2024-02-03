@@ -17,6 +17,7 @@
             margin: 0px;
             padding: 0;
             background-color: #f4f4f4;
+            text-align: justify;
         }
 
         header {
@@ -37,22 +38,21 @@
         }
 
         h1 {
-            color: yellow;
+            color: orange;
             text-align: center;
-            text-shadow: 0 0px 2px red;
+            text-shadow:  0 0 1px orangered;
+            /* text-shadow: 0 0px 2px red; */
             font-size: 30px;
-            font-style: italic;
+            /* font-style: italic; */
         }
 
         img {
-            max-width: 100%;
+            
             height: auto;
 
         }
 
-        p {
-            font-size: 20px;
-        }
+        
 
         section li {
             color: red;
@@ -65,6 +65,53 @@
             height: 95px;
             text-align: center;
         }
+
+        @media  screen and (min-width:375px) {
+ 
+        h1{
+            font-size: 22px ;
+        }
+
+}
+@media  screen and (min-width:450px) {
+    
+        h1{
+            font-size: 27px ;
+        }
+
+}
+@media  screen and (min-width:900px) {
+   
+        h1{
+            font-size: 30px ;
+        }
+
+}
+@media  screen and (min-width:765px) {
+   
+   h1{
+       font-size: 29px ;
+   }
+   #bannerimg{
+    height: 100px;
+    width: 200px;
+   }
+
+}
+@media (min-width:1280px){
+  
+        h1{
+            font-size: 35px ;
+        }
+
+}
+@media  screen and (max-width:412px) {
+   
+        h1{
+            font-size: 28px ;
+        }
+
+}
     </style>
 </head>
 
@@ -72,15 +119,15 @@
 
 
     <main>
-        <section>
+        
             <h1>Welcome to Democralink</h1>
-            <p>democraLink is an innovative online voting system designed specifically for educational institutions,
+            <p>DemocraLink is an innovative online voting system designed specifically for educational institutions,
                 including schools, colleges, and institutes. This secure platform facilitates seamless and transparent
                 elections, allowing students to actively participate in the democratic process. With democraLink, the
                 traditional paper-based voting system is replaced with a user-friendly digital interface, promoting
                 efficiency and reducing environmental impact</p>
             <!-- <img src="placeholder1.jpg" alt=""> -->
-        </section>
+    
 
         <div class="container-fluid mt-5">
             <!-- banner -->
@@ -90,8 +137,7 @@
                         a coder</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quas voluptate modi
                         repellendus. Et, eveniet fuga aliquam facilis vel a.</p>
-                    <button type="button" class="btn" id="banner-btn-1"> Contact us</button>
-                    <button type="button" class="btn" id="banner-btn-2">Our Services</button>
+                    
 
                 </div>
                 <div class="col-md-4 d-none d-md-block" id="bannerimg">

@@ -48,8 +48,9 @@
         display: block;
       }
     
+      
 
-    @media only screen and (max-width: 600px) {
+    /* @media only screen and (max-width: 600px) {
       nav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -68,7 +69,68 @@
         display: block;
         text-align: left;
       }
-    }
+    } */
+
+    @media  screen and (min-width:375px) {
+ nav a{
+  font-size: 12px;
+  margin-left: 1%;
+ }
+
+
+}
+@media  screen and (min-width:450px) {
+
+  nav a{
+  font-size: 15px;
+  margin-left: 1%;
+ }
+
+
+}
+@media  screen and (min-width:900px) {
+
+  nav a{
+  font-size: 20px;
+  margin-left: 1%;
+ }
+
+
+}
+@media  screen and (min-width:765px) {
+
+  nav a{
+  font-size: 18px;
+  margin-left: 1%;
+ }
+
+
+}
+@media (min-width:1280px){
+
+
+
+}
+@media  screen and (max-width:375px) {
+
+  nav a{
+  font-size: 12px;
+
+  /* margin-left: 1%; */
+ }
+
+
+}
+@media  screen and (max-width:310px) {
+
+nav a{
+font-size: 10px;
+
+}
+
+nav{
+  height:90px;
+}}
   </style>
 </head>
 <body>

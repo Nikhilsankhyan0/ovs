@@ -54,6 +54,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <style>
+
+
+
+@media only screen and (max-width: 866px) {
+       .banner{
+        display: none;
+       }
+    
+    }
+    @media only screen and (min-width: 866px) {
+      #hide{
+        display: none;
+      }
+    #hide h2{
+margin-top: 10%
+    }
+}
+
 		.signup_btn{
     width: 100%;
     background: #3bce1e !important;
@@ -64,6 +82,11 @@
 
     font-family: 'Times New Roman', Times, serif;
 
+}
+h2{
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 0 0 10px #f39c12;
 }
 .banner h1{
 	margin-top: 220px;
@@ -79,10 +102,12 @@
 	</style>
 
 <body>
-	<div class="container-fluid h-100">
-		<div class="d-flex justify-content-center h-100">
+    <div class="container-fluid h-100">
+        <!-- <h2 id="hide">DemocraLink</h2> -->
+        <div class="d-flex justify-content-center h-100">
+
         <div class="col-md-6 col-11 banner " id="bannertext">
-            <h1>DemocraLink</h1>
+            <h1 >DemocraLink</h1>
             <p> DemocraLink is an innovative and secure online voting platform tailored for educational institutions, fostering inclusive and transparent democratic processes</p>
             
 
