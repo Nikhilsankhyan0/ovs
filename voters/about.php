@@ -71,6 +71,49 @@
             height: 95px;
             text-align: center;
         }
+        @media  screen and (min-width:375px) {
+ 
+ h1{
+     font-size: 22px ;
+ }
+
+}
+@media  screen and (min-width:450px) {
+
+ h1{
+     font-size: 27px ;
+ }
+
+}
+@media  screen and (min-width:900px) {
+
+ h1{
+     font-size: 30px ;
+ }
+
+}
+@media  screen and (min-width:765px) {
+
+h1{
+font-size: 29px ;
+}
+
+
+}
+@media (min-width:1280px){
+
+ h1{
+     font-size: 35px ;
+ }
+
+}
+@media  screen and (max-width:412px) {
+
+ h1{
+     font-size: 28px ;
+ }
+
+} 
     </style>
 </head>
 

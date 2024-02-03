@@ -55,6 +55,15 @@
         }
 
 }
+@media  screen and (max-width:420px) {
+    .img img{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 180px;
+            width: 180px;
+    }
+}
 @media  screen and (min-width:450px) {
     .img img {
             display: flex;
@@ -100,7 +109,7 @@
             align-items: center;
             justify-content: center;
             height: 200px;
-            width: 400px;
+            width: 200px;
         }
         h1{
             font-size: 25px ;

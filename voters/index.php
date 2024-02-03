@@ -54,6 +54,82 @@
             margin-left: 2%;
             margin-right: 2%
         }
+        @media  screen and (min-width:375px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 180px;
+            width: 180px;
+        }
+        h1{
+            font-size: 22px ;
+        }
+
+}
+@media  screen and (max-width:420px) {
+    .img img{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 180px;
+            width: 180px;
+    }
+}
+@media  screen and (min-width:450px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 275px;
+            width: 275px;
+        }
+        h1{
+            font-size: 27px ;
+        }
+
+}
+@media  screen and (min-width:900px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 325px;
+            width: 325px;
+        }
+        h1{
+            font-size: 30px ;
+        }
+
+}
+@media (min-width:1280px){
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 400px;
+            width: 400px;
+        }
+        h1{
+            font-size: 35px ;
+        }
+
+}
+@media  screen and (max-width:412px) {
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            width: 200px;
+        }
+        h1{
+            font-size: 25px ;
+        }
+
+}
+      
+      
     </style>
     <div class="container">
 
@@ -65,7 +141,7 @@
         </p>
         <div class="img">
             <center>
-                <img src="../assets/images/homeimg.jpg" alt="home img">
+            <img src="../assets/images/logo/secondlogo.png" alt="home img">
             </center>
         </div>
         <h1>What is Online Voting for an Election?</h1>
