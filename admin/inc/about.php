@@ -46,8 +46,9 @@
             /* font-style: italic; */
         }
 
-        img {
-            width: 100vw;
+        .img-fluid {
+            width: 250px;
+            margin-left: 65px;
             /* height: auto; */
 
         }
@@ -138,7 +139,8 @@
 
                 </div>
                 <div class="col-md-4 d-none d-md-block" id="bannerimg">
-                    <img src="../assets/images/logo/homeimg1.png" class="img-fluid ns" alt="">
+                <img src="../assets/images/logo/secondlogo.png" class="img-fluid ns"alt="">
+
                 </div>
 
             </div>

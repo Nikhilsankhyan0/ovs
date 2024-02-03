@@ -26,16 +26,19 @@
             color: white;
             text-align: center;
             margin-right: 20px;
-            /* padding: 14pxpx; */
-            text-decoration: none;
+           
+            text-decoration:none;
             width: 10%;
+          
             /* Equal width for buttons */
         }
 
         nav a:hover {
             /* background-color: #ddd; */
-        
+        text-decoration: none;
             color: white;
+            font-size: 21px;
+
           text-shadow: 0 0 10px white ;
         }
     .navbar-toggle {

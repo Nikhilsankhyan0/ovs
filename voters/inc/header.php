@@ -32,7 +32,7 @@
     <div class="container-fluid ">
         <div class="row bg-blue">
             <div class="col-1">
-                <img src="../assets/images/download1.gif" style="margin-top:2px; height:70px" width="80">
+                <img src="../assets/images/LOGOMAIN.png" style="margin-top:2px; height:70px" width="80">
 
             </div>
 

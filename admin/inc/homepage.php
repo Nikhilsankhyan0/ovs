@@ -35,8 +35,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 500px;
-            width: 900px;
+            height: 400px;
+            width: 500px;
         }
 
         p {
@@ -48,7 +48,7 @@
             align-items: center;
             justify-content: center;
             height: 180px;
-            width: 390px;
+            width: 180px;
         }
         h1{
             font-size: 22px ;
@@ -61,7 +61,7 @@
             align-items: center;
             justify-content: center;
             height: 275px;
-            width: 560px;
+            width: 275px;
         }
         h1{
             font-size: 27px ;
@@ -74,7 +74,7 @@
             align-items: center;
             justify-content: center;
             height: 325px;
-            width: 760px;
+            width: 325px;
         }
         h1{
             font-size: 30px ;
@@ -87,7 +87,7 @@
             align-items: center;
             justify-content: center;
             height: 400px;
-            width: 700px;
+            width: 400px;
         }
         h1{
             font-size: 35px ;
@@ -124,7 +124,7 @@
         </p>
         <div class="img">
             <center>
-                <img src="../assets/images/homeimg.jpg" alt="home img">
+                <img src="../assets/images/logo/secondlogo.png" alt="home img">
             </center>
         </div>
         <h1>What is Online Voting for an Election?</h1>

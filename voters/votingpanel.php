@@ -70,7 +70,7 @@
                                                 {
                                     ?>
 
-                                                    <img src="../assets/images/logo/vote.png" width="100px;">
+                                                    <img src="../assets/images/logo/vote.png" width="80px;">
                                     <?php
                                                 }
                                             }else {

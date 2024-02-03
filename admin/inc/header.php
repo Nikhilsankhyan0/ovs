@@ -70,7 +70,7 @@ if ($_SESSION['key'] != "AdminKey") {
     <div class="container-fluid ">
         <div class="row bg-blue">
             <div class="col-1">
-                <img src="../assets/images/logo/download1.gif" style="margin-top:2px; height:70px" width="80">
+                <img src="../assets/images/logo/LOGOMAIN.png" style="margin-top:2px; height:70px" width="80">
 
             </div>
 
