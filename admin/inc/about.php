@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
+    <link rel="icon" href="../assets/images/logo/logo-white.png">
     <title>Democralink - Online Voting System</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <style>
@@ -47,8 +47,8 @@
         }
 
         img {
-            
-            height: auto;
+            width: 100vw;
+            /* height: auto; */
 
         }
 
@@ -73,7 +73,7 @@
         }
 
 }
-@media  screen and (min-width:450px) {
+ @media  screen and (min-width:450px) {
     
         h1{
             font-size: 27px ;
@@ -92,10 +92,7 @@
    h1{
        font-size: 29px ;
    }
-   #bannerimg{
-    height: 100px;
-    width: 200px;
-   }
+  
 
 }
 @media (min-width:1280px){
@@ -111,7 +108,7 @@
             font-size: 28px ;
         }
 
-}
+} */
     </style>
 </head>
 
@@ -128,7 +125,7 @@
                 efficiency and reducing environmental impact</p>
             <!-- <img src="placeholder1.jpg" alt=""> -->
     
-
+<section style="margin-bottom:20px;" >
         <div class="container-fluid mt-5">
             <!-- banner -->
             <div class="row justify-content-center " id="banner">
@@ -145,7 +142,8 @@
                 </div>
 
             </div>
-
+        </div>
+        </section>
 
             <section>
                 <h1>Why Choose Democralink?</h1>

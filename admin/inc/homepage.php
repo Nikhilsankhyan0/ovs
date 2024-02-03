@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
+    <link rel="icon" href="../assets/images/logo/logo-white.png">
+    
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>DemocraLink/home</title>
 </head>

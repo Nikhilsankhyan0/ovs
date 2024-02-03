@@ -26,7 +26,8 @@
         background-color: #f39c12;
     }
 </style>
-<link rel="icon" href="../assets/images/logo/voting_icon.jpg">
+<link rel="icon" href="../assets/images/logo/logo-white.png">
+
 
 <div class="row my-3">
     <div class="col-4">

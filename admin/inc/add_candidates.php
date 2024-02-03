@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 ?>
-    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
+    <link rel="icon" href="../assets/images/logo/logo-white.png">
 
 <style>
     .candidate_photo{

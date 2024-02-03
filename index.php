@@ -1,4 +1,5 @@
-<link rel="icon" href="assets/images/logo/voting_icon.jpg">
+    <link rel="icon" href="assets/images/logo/logo-white.png">
+
 
 <?php 
     require_once("admin/inc/config.php");
@@ -116,7 +117,7 @@ h2{
 			<div class="user_card" style="height:500px">
 				<div class="d-flex justify-content-center">
 					<div class="brand_logo_container">
-						<img src="assets/images/logo/logo.gif" class="brand_logo" alt="Logo">
+						<img src="assets/images/logo/LOGOMAIN.png" class="brand_logo" alt="Logo">
 					</div>
 				</div>
 
@@ -190,7 +191,7 @@ h2{
                                 Don't have an account? <a href="?sign-up=1" class="ml-2 text-white">Sign Up</a>
                             </div>
                             <div class="d-flex justify-content-center links">
-                                <a href="#" class="text-white">Forgot your password?</a>
+                                <!-- <a href="#" class="text-white">Forgot your password?</a> -->
                             </div>
                         </div>
                 <?php

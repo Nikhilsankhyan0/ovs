@@ -2,7 +2,8 @@
     $election_id = $_GET['viewResult'];
 
 ?>
-    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
+    <link rel="icon" href="../assets/images/logo/logo-white.png">
+    
 
 <style>
 .candidate_photo{
