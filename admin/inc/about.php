@@ -67,7 +67,8 @@
             text-align: center;
         }
 
-        @media  screen and (min-width:375px) {
+    
+         @media  screen and (min-width:375px) {
  
         h1{
             font-size: 22px ;
@@ -147,8 +148,7 @@
         </div>
         </section>
 
-            <section>
-                <h1>Why Choose Democralink?</h1>
+            <shy Choose Democralink?</h1>
                 <p>Choosing democraLink offers a myriad of advantages that set it apart as the preferred online voting
                     system for educational institutions. Here are compelling reasons to opt for democraLink:
 

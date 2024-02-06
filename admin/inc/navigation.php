@@ -14,12 +14,12 @@
     nav {
       background-color: #333;
       overflow: hidden;
-      height: 70px;
+      height: 75px;
       width: 100%;
       position: sticky;
     }
     nav a {
-            font-size: 20px;
+            font-size: 15px;
             margin-top: 20px;
             float: left;
             display: block;
@@ -37,7 +37,7 @@
             /* background-color: #ddd; */
         text-decoration: none;
             color: white;
-            font-size: 21px;
+            font-size: 20px;
 
           text-shadow: 0 0 10px white ;
         }
@@ -79,7 +79,14 @@
   font-size: 12px;
   margin-left: 1%;
  }
+ nav a:hover {
+            /* background-color: #ddd; */
+        text-decoration: none;
+            color: white;
+            font-size: 11.5px;
 
+          text-shadow: 0 0 10px white ;
+        }
 
 }
 @media  screen and (min-width:450px) {
@@ -88,7 +95,14 @@
   font-size: 15px;
   margin-left: 1%;
  }
+ nav a:hover {
+            /* background-color: #ddd; */
+        text-decoration: none;
+            color: white;
+            font-size: 14.5px;
 
+          text-shadow: 0 0 10px white ;
+        }
 
 }
 @media  screen and (min-width:900px) {
@@ -97,7 +111,14 @@
   font-size: 20px;
   margin-left: 1%;
  }
+ nav a:hover {
+            /* background-color: #ddd; */
+        text-decoration: none;
+            color: white;
+            font-size: 19.5px;
 
+          text-shadow: 0 0 10px white ;
+        }
 
 }
 @media  screen and (min-width:765px) {
@@ -106,7 +127,14 @@
   font-size: 18px;
   margin-left: 1%;
  }
+ nav a:hover {
+            /* background-color: #ddd; */
+        text-decoration: none;
+            color: white;
+            font-size: 17.5px;
 
+          text-shadow: 0 0 10px white ;
+        }
 
 }
 @media (min-width:1280px){
@@ -121,7 +149,14 @@
 
   /* margin-left: 1%; */
  }
+ nav a:hover {
+            /* background-color: #ddd; */
+        text-decoration: none;
+            color: white;
+            font-size: 11.5px;
 
+          text-shadow: 0 0 10px white ;
+        }
 
 }
 @media  screen and (max-width:310px) {
@@ -130,7 +165,14 @@ nav a{
 font-size: 10px;
 
 }
+nav a:hover {
+            /* background-color: #ddd; */
+        text-decoration: none;
+            color: white;
+            font-size: 9.5px;
 
+          text-shadow: 0 0 10px white ;
+        }
 nav{
   height:90px;
 }}

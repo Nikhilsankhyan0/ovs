@@ -32,16 +32,22 @@ if ($_SESSION['key'] != "AdminKey") {
     /* position: fixed; */
 }
 @media screen and (max-width:375px){
-    h3{
-        font-size: 20px;
+    .text h3{
+        font-size: 15px;
     }
     .col-1{
         display: none;
     }
 }
+@media screen and (max-width:500px){
+    .text h3{
+        font-size: 23px;
+    }
+    
+}
 @media screen and (min-width:376px){
-    h3{
-        font-size: 22px;
+    .text h3{
+        font-size: 18px;
     }
     .col-1 img{
         height: 50px;
@@ -52,7 +58,7 @@ if ($_SESSION['key'] != "AdminKey") {
 }
 }
 @media screen and (min-width:630px){
-    h3{
+    .text h3{
         font-size: 26px;
     }
     .col-1 img{

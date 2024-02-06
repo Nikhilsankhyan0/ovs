@@ -20,7 +20,7 @@
             color: white;
             padding: 10px;
             text-align: center;
-            position: fixed;
+            /* position: fixed; */
             bottom: 0;text-align: center;
             width: 100%;
             /* opacity: 0;

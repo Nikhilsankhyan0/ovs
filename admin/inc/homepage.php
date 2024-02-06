@@ -190,10 +190,14 @@
         <p>Your voters will love how easy and simple it is to vote online, and so will you! </p>
 
     </div>
-    <div class="row text-center bg-blue">
+    <!-- <div class="row text-center bg-blue">
         <div class="col-12 my-4">
             <p> &copy; 2024 All right reserved.<br> Developed by ayush ,nikhil and nikhil
             </p>
-        </div>
+        </div> -->
+
 </body>
 </html>
+        <?php
+require_once("footer.php");
+        ?>
