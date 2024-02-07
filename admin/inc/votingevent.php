@@ -73,5 +73,5 @@ border-radius: 100%;
 
 <?php
 
-require_once("footer.php");
+// require_once("footer.php");
 ?>

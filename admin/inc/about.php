@@ -200,7 +200,7 @@
                 </p>
             </section>
     </main>
-    <div class="foot">
+    <!-- <div class="foot">
         <div class="row text-center bg-blue foot">
             <div class="col-12 my-4">
             <div class="line">   
@@ -208,7 +208,12 @@
             </div>
             </div>
         </div>
-    </div>
+    </div> -->
+<?php
+
+
+
+require_once("footer.php");?>
 
 </body>
 

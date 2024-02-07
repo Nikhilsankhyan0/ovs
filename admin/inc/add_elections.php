@@ -22,7 +22,26 @@ if (isset($_GET['added'])) {
     /* Your default styling for larger screens */
     thead {
         background-color: #f39c12;
+      overflow: hidden;
+      height: 75px;
+      width: 100%;
     }
+    thead th {
+            font-size: 15px;
+            margin-top: 20px;
+            /* float: left; */
+            /* display: block; */
+            color: black;
+            text-align: center;
+            margin-right: 20px;
+           
+            text-decoration:none;
+            width: 10%;
+          
+            /* Equal width for buttons */
+        }
+
+
     .col-4 {
   flex: 0 0 33.33%;}
 
@@ -50,12 +69,31 @@ if (isset($_GET['added'])) {
     @media screen and (max-width:375px) {
 
         .row h3 {
-            font-size: 20px;
+            font-size: 13px;
         }
         .div1{
             width: 70%;
         }
+.form-group{
+    width: 330px;
+    margin-left: 5%;
+    height: ;
+}
+.btn{
+    margin-left: 5%;
 
+}
+.table{
+    width: 10%;
+}
+
+thead{
+    height: 20px;
+}
+.th,.td{
+    font-size: 10px;
+    margin-left: 0;
+}
     }
     @media screen and (max-width:450px) {
 
@@ -73,7 +111,7 @@ if (isset($_GET['added'])) {
     }
         @media screen and (max-width:500px) {
             .row h3 {
-            font-size: 25px;
+            font-size: 15px;
         }
         .col-4{
             flex:  0 0 50%;
@@ -95,6 +133,7 @@ if (isset($_GET['added'])) {
         .row h3 {
             font-size: 27px;
         }
+
 
 
     }
@@ -122,7 +161,7 @@ if (isset($_GET['added'])) {
 
 
 <div class="row   my-3">
-    <div class="col-4 div1">
+    <div class="col-4  div1">
         <h3>Add New Election</h3>
         <form method="POST">
             <div class="form-group">
@@ -150,13 +189,13 @@ if (isset($_GET['added'])) {
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">S.No</th>
-                    <th scope="col">Election Name</th>
-                    <th scope="col"># Candidates</th>
-                    <th scope="col">Starting Date</th>
-                    <th scope="col">Ending Date</th>
-                    <th scope="col">Status </th>
-                    <th scope="col">Action </th>
+                    <th class="th" scope="col">S.No</th>
+                    <th class="th" scope="col">Election Name</th>
+                    <th class="th" scope="col"># Candidates</th>
+                    <th class="th" scope="col">Starting Date</th>
+                    <th class="th" scope="col">Ending Date</th>
+                    <th class="th" scope="col">Status </th>
+                    <th class="th" scope="col">Action </th>
 
                 </tr>
             </thead>
@@ -172,24 +211,24 @@ if (isset($_GET['added'])) {
                         // $delete_id = $row['id'];
                         ?>
                         <tr>
-                            <td>
+                            <td  class="td" >
                                 <?php echo $sno++; ?>
                             </td>
-                            <td>
+                            <td class="td" >
                                 <?php echo $row['election_topic']; ?>
                             </td>
-                            <td>
+                            <td class="td" >
                                 <?php echo $row['no_of_candidates']; ?>
                             </td>
-                            <td>
+                            <td class="td" >
                                 <?php echo $row['starting_date']; ?>
                             </td>
-                            <td>
+                            <td class="td" >
                                 <?php echo $row['ending_date']; ?>
                             </td>
-                            <td>
+                            <td class="td" >
                                 <?php echo $row['status']; ?>
-                            </td>
+                            </td> 
                             <td>
                                 <!-- <a href="#" class="btn btn-sm btn-warning"> Edit </a> -->
                                 <button class="btn btn-sm btn-danger" onclick="DeleteData(<?php echo $election_id; ?>)"> Delete
