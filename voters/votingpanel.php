@@ -2,8 +2,7 @@
     require_once("inc/header.php");
     require_once("inc/navigation.php");
 ?>
-     <link rel="icon" href="../assets/images/logo/logo-white.png">
-
+    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
 
     <div class="row my-3">
         <div class="col-12">
@@ -70,12 +69,12 @@
                                                 {
                                     ?>
 
-                                                    <img src="../assets/images/logo/vote.png" width="80px;">
+                                                    <img src="../assets/images/logo/vote.png" width="100px;">
                                     <?php
                                                 }
                                             }else {
                                     ?>
-                                                <button class="btn btn-md btn-success" onclick="CastVote(<?php echo $election_id; ?>, <?php echo $candidate_id; ?>, <?php echo $_SESSION['user_id']; ?>)"> Vote </button>
+                                                <button class="btn btn-md btn-success" onclick="CastVote(<?php echo $election_id; ?>, <?php echo $candidate_id; ?>, <?php echo $_SESSION['user_id']; ?>)">Vote </button>
                                     <?php
                                             }
 
@@ -128,5 +127,5 @@
 
 
 <?php
-    // require_once("inc/footer.php");
+    require_once("inc/footer.php");
 ?>

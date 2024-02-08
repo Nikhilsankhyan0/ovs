@@ -88,8 +88,8 @@ border-radius: 100%;}
                 {
                     $sno = 1;
             ?>
-                    <table class="table">
-                        <tr>
+                    <table class="table ">
+                        <tr class="banner">
                             <th>S.No</th>
                             <th>Voter Name</th>
                             <th>Contact No</th>

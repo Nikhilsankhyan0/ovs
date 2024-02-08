@@ -20,21 +20,24 @@
             color: white;
             padding: 10px;
             text-align: center;
-            /* position: fixed; */
+            position: fixed;
             bottom: 0;text-align: center;
             width: 100%;
-           
+            opacity: 0;
+            transition: opacity 0.5s;
         }
-      
+        footer:hover {
+            opacity: 1;
+        }
 .line{
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
 </style>
 <footer>
 <div class="foot">
     <div class="row text-center bg-blue foot">
         <div class="col-12 ">
-            <div class="line">
+            <div class="line mt-5">
                 &copy; 2024 All right reserved.<br> Developed by Ayush kaushal ,Nikhil Kumar and Nikhil
                 Sankhyan<br><br>
 

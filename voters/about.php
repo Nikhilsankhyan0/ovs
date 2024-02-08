@@ -11,8 +11,7 @@
 
 
     <head>
-    <link rel="icon" href="../assets/images/logo/logo_white.png">
-    
+    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Democralink - Online Voting System</title>
@@ -71,49 +70,6 @@
             height: 95px;
             text-align: center;
         }
-        @media  screen and (min-width:375px) {
- 
- h1{
-     font-size: 22px ;
- }
-
-}
-@media  screen and (min-width:450px) {
-
- h1{
-     font-size: 27px ;
- }
-
-}
-@media  screen and (min-width:900px) {
-
- h1{
-     font-size: 30px ;
- }
-
-}
-@media  screen and (min-width:765px) {
-
-h1{
-font-size: 29px ;
-}
-
-
-}
-@media (min-width:1280px){
-
- h1{
-     font-size: 35px ;
- }
-
-}
-@media  screen and (max-width:412px) {
-
- h1{
-     font-size: 28px ;
- }
-
-} 
     </style>
 </head>
 
@@ -139,12 +95,11 @@ font-size: 29px ;
                         a coder</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quas voluptate modi
                         repellendus. Et, eveniet fuga aliquam facilis vel a.</p>
-                    
+                   
 
                 </div>
-                <div class="col-md-2 d-none d-md-block" id="bannerimg">
-                <img src="../assets/images/logo/secondlogo.png" class="img-fluid ns" ml-5 width="280px"alt="">
-
+                <div class="col-md-4 d-none d-md-block" id="bannerimg">
+                    <img src="../assets/images/logo/secondlogo.png" class="img-fluid ns" width="280px"alt="">
                 </div>
 
             </div>
@@ -203,7 +158,6 @@ font-size: 29px ;
                 </p>
             </section>
     </main>
-    
 <?php
 require_once("inc/footer.php");
 ?>

@@ -20,24 +20,26 @@
             width: 100%;
             position: sticky;
         }
-
         nav a {
-            font-size: 20px;
-            margin-top: 12px;
+            font-size: 15px;
+            margin-top: 20px;
             float: left;
             display: block;
             color: white;
             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
+            margin-right: 20px;
+           
+            text-decoration:none;
             width: 10%;
+          
             /* Equal width for buttons */
         }
 
         nav a:hover {
-            text-decoration: none;
+            /* background-color: #ddd; */
+        text-decoration: none;
             color: white;
-            font-size: 21px;
+            font-size: 20px;
 
           text-shadow: 0 0 10px white ;
         }
@@ -57,85 +59,28 @@
         }
 
 
-        @media  screen and (min-width:375px) {
- nav a{
-  font-size: 12px;
-  margin-left: 1%;
- }
- #log{
-    margin-left: 25px;
- }
+        @media only screen and (max-width: 600px) {
+            nav.responsive a.icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
 
-}
-@media  screen and (max-width:375px) {
- nav a{
-  font-size: 12px;
-  margin-left: 1%;
- }
- #log{
-    margin-left: 25px;
- }
+        @media only screen and (max-width: x) {
+            nav.responsive a.icon {
+                position: absolute;
+                right: 0;
+                top: 0;
 
-}
-@media  screen and (min-width:450px) {
+            }
 
-  nav a{
-  font-size: 15px;
-  margin-left: 1%;
- }
- #log{
-    margin-left: 20px;
- }
-
-
-}
-@media  screen and (min-width:900px) {
-
-  nav a{
-  font-size: 20px;
-  margin-left: 1%;
- }
-
-
-}
-@media  screen and (min-width:765px) {
-
-  nav a{
-  font-size: 18px;
-  margin-left: 1%;
-
- }
- nav{
-    height: 80px;
- }
-
-
-}
-@media (min-width:1280px){
-
-
-
-}
-@media  screen and (max-width:375px) {
-
-  nav a{
-  font-size: 12px;
-
-  /* margin-left: 1%; */
- }
-
-
-}
-@media  screen and (max-width:310px) {
-
-nav a{
-font-size: 10px;
-
-}
-
-nav{
-  height:90px;
-}}
+            nav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
     </style>
 </head>
 
@@ -144,8 +89,11 @@ nav{
         <nav>
             <a href="index.php"> Home</a>
             <a href="about.php"> About</a>
-            <a href="votingpanel.php">Elections</a>
-            <a  id="log" href="logout.php">Logout</a>
+
+            <a href="votingpanel.php">Voters Pannel</a>
+
+
+            <a href="logout.php">Logout</a>
         </nav>
     </div>
 

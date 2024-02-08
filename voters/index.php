@@ -1,36 +1,35 @@
-<?php 
-    require_once("inc/header.php");
-    require_once("inc/navigation.php");
+<?php
+include_once("inc/header.php");
+include_once("inc/navigation.php");
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-    <link rel="icon" href="../assets/images/logo/logo-white.png">
-
+<head>
     <meta charset="UTF-8">
+    <link rel="icon" href="../assets/images/logo/logo-white.png">
+    
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>DemocraLink/home</title>
 </head>
 
 <body>
     <style>
-        body {}
-
-    
-      .foot {
-            background-color: #f39c12;
-            color: white;
-            padding: 1em;
-            height: 95px;
-            text-align: center;
+        body {
+            text-align: justify;
+            
         }
+#docs{
+    margin-left: 1%;
+    margin-right: 2%;
+}
         h1 {
             margin-top: 20px;
             color: orange;
             text-align: center;
-            text-shadow: 5px orangered;
+            text-shadow:  0 0 1px orangered;
         }
 
         .container {
@@ -42,17 +41,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 500px;
-            width: 900px;
+            height: 400px;
+            width: 500px;
         }
 
         p {
             /* text-align: center; */
-        }
-
-        #docs {
-            margin-left: 2%;
-            margin-right: 2%
         }
         @media  screen and (min-width:375px) {
     .img img {
@@ -130,6 +124,11 @@
 }
       
       
+
+
+      
+  
+    
     </style>
     <div class="container">
 
@@ -141,7 +140,7 @@
         </p>
         <div class="img">
             <center>
-            <img src="../assets/images/logo/secondlogo.png" alt="home img">
+                <img src="../assets/images/logo/secondlogo.png" alt="home img">
             </center>
         </div>
         <h1>What is Online Voting for an Election?</h1>
@@ -198,8 +197,14 @@
         <p>Your voters will love how easy and simple it is to vote online, and so will you! </p>
 
     </div>
-    <?php
-    require_once("inc/footer.php");
-?>
+    <!-- <div class="row text-center bg-blue">
+        <div class="col-12 my-4">
+            <p> &copy; 2024 All right reserved.<br> Developed by ayush ,nikhil and nikhil
+            </p>
+        </div> -->
+
 </body>
 </html>
+        <?php
+// require_once("footer.php");
+        ?>
