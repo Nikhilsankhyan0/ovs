@@ -2,7 +2,8 @@
     require_once("inc/header.php");
     require_once("inc/navigation.php");
 ?>
-    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
+        <link rel="icon" href="../assets/images/logo/logo-white.png">
+
 
     <div class="row my-3">
         <div class="col-12">
