@@ -95,8 +95,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 400px;
-            width: 400px;
+            height: 230px;
+            width: 230px;
         }
         h1{
             font-size: 35px ;

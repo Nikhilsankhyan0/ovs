@@ -191,7 +191,7 @@ thead{
                 <tr>
                     <th class="th" scope="col">S.No</th>
                     <th class="th" scope="col">Election Name</th>
-                    <th class="th" scope="col"># Candidates</th>
+                    <th class="th" scope="col">No. Of Candidates</th>
                     <th class="th" scope="col">Starting Date</th>
                     <th class="th" scope="col">Ending Date</th>
                     <th class="th" scope="col">Status </th>
