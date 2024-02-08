@@ -41,8 +41,8 @@ include_once("inc/navigation.php");
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 400px;
-            width: 500px;
+            height: 230px;
+            width: 230px;
         }
 
         p {
@@ -50,7 +50,7 @@ include_once("inc/navigation.php");
         }
         @media  screen and (min-width:375px) {
     .img img {
-            display: flex;
+            display: none;
             align-items: center;
             justify-content: center;
             height: 180px;
@@ -63,53 +63,41 @@ include_once("inc/navigation.php");
 }
 @media  screen and (max-width:420px) {
     .img img{
-        display: flex;
+        display: none;
             align-items: center;
             justify-content: center;
             height: 180px;
             width: 180px;
+        }
     }
-}
+    @media  screen and (max-width:412px) {
+        .img img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 170px;
+                width: 170px;
+            }
+            h1{
+                font-size: 25px ;
+            }
+    
+    }
 @media  screen and (min-width:450px) {
     .img img {
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 275px;
-            width: 275px;
+            height: 170px;
+            width: 170px;
         }
         h1{
             font-size: 27px ;
         }
 
 }
+
 @media  screen and (min-width:900px) {
-    .img img {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 325px;
-            width: 325px;
-        }
-        h1{
-            font-size: 30px ;
-        }
-
-}
-@media (min-width:1280px){
-    .img img {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 400px;
-            width: 400px;
-        }
-        h1{
-            font-size: 35px ;
-        }
-
-}
-@media  screen and (max-width:412px) {
     .img img {
             display: flex;
             align-items: center;
@@ -118,11 +106,24 @@ include_once("inc/navigation.php");
             width: 200px;
         }
         h1{
-            font-size: 25px ;
+            font-size: 30px ;
         }
 
 }
-      
+
+@media (min-width:1280px){
+    .img img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 250px;
+            width: 250px;
+        }
+        h1{
+            font-size: 35px ;
+        }
+
+}
       
 
 
@@ -171,14 +172,14 @@ include_once("inc/navigation.php");
             voting. Your internet voting depends on the options stipulated by your bylaws. Your bylaws are always the
             first place to check when deciding if you need to run an on-site or remote online vote. In some cases, you
             may even be allowed to utilize both options!</p> <br>
-        <h1> Online Voting and Ballot Methods</h1>
+     
 
-        <p id="docs">Remote online voting is online voting performed remotely. This type of voting is a form of an
+        <!-- <p id="docs">Remote online voting is online voting performed remotely. This type of voting is a form of an
             absentee ballot and is becoming extremely popular, as it goes one step further than on-site voting does to
             increase convenience for the voters. Instead of having to go out and vote in-person, remote online voting
             allows a voter to cast their vote at any time, from anywhere. All a voter needs to vote is a notice
             containing their voting credentials, a device that can connect to the internet, and an internet connection!
-        </p> <br>
+        </p> <br> -->
 
         <p id="docs">Traditionally, the challenge with remote voting was inherently tied to the distribution method that
             had to be used: postal services. Since paper was the basis for the voting process, paper ballots had to be

@@ -11,7 +11,16 @@ border:1px solid red;
 border-radius: 100%;
 
 }
+thead {
+        background-color: #f39c12;
+      overflow: hidden;
+      height: 75px;
+      width: 100%;
+    }
+    the
 </style>
+
+<!-- $delete_id = $row['id']; -->
 
 <?php 
     if(isset($_GET['added']))
@@ -21,22 +30,24 @@ border-radius: 100%;
             Candidate has been added successfully.
         </div>
         <?php  
-         }else if(isset($_GET['delete_id']))
+         }
+         else if(isset($_GET['delete_id']))
     {
         $d_id = $_GET['delete_id'];
         mysqli_query($db, "DELETE FROM `candidate_details` WHERE `candidate_details`.`id`= '". $d_id ."'") OR die(mysqli_error($db));
 ?>
        <div class="alert alert-danger my-3" role="alert">
-            candidate has been deleted successfully!
-        </div>
+            Candidate has been deleted successfully!</div>
 <?php 
-    }else if(isset($_GET['largeFile'])) {
+    }
+    else if(isset($_GET['largeFile'])) {
 ?>
         <div class="alert alert-danger my-3" role="alert">
             Candidate image is too large, please upload small file (you can upload any image upto 2mbs.).
         </div>
 <?php
-    }else if(isset($_GET['invalidFile']))
+    }
+    else if(isset($_GET['invalidFile']))
     {
 ?>
         <div class="alert alert-danger my-3" role="alert">
@@ -54,11 +65,6 @@ border-radius: 100%;
 
 ?>
 
-<style>
-    thead{
-        background-color: #f39c12;
-    }
-</style>
 
 <div class="row my-3">
     <div class="col-4">
@@ -113,7 +119,7 @@ border-radius: 100%;
     <div class="col-8">
         <h3>Candidate Details</h3>
         <table class="table">
-            <thead >
+            <thead>
                 <tr>
                     <th scope="col">S.No</th>
                     <th scope="col">Photo</th>
@@ -134,13 +140,15 @@ border-radius: 100%;
                         $sno = 1;
                         while($row = mysqli_fetch_assoc($fetchingData))
                         {
-                            $delete_id = $row['election_id'];
+$delete_id = $row['id'];
+
+                            $election_id = $row['election_id'];
                             $fetchingElectionName = mysqli_query($db, "SELECT * FROM elections WHERE id = '". $election_id ."'") or die(mysqli_error($db));
                             $execFetchingElectionNameQuery = mysqli_fetch_assoc($fetchingElectionName);
                             $election_name = $execFetchingElectionNameQuery['election_topic'];
 
                             $candidate_photo = $row['candidate_photo'];
-                            $delete_id = $row['id'];
+
                 ?>
                             <tr>
                                 <td><?php echo $sno++; ?></td>
@@ -149,8 +157,9 @@ border-radius: 100%;
                                 <td><?php echo $row['candidate_details']; ?></td>
                                 <td><?php echo $election_name; ?></td>
                                 <td> 
-                                    <!-- <button class="btn btn-sm btn-warning"onclick="editCandidate()"> Edit </button>  -->
+                                    <!-- <a href="#" class="btn btn-sm btn-warning"> Edit </a> -->
                                     <button class="btn btn-sm btn-danger" onclick="DeleteData(<?php echo $delete_id; ?>)"> Delete </button>
+
                                 </td>
                             </tr>   
                 <?php
@@ -167,7 +176,6 @@ border-radius: 100%;
         </table>
     </div>
 </div>
-
 <script>
     const DeleteData = (c_id) => 
     {
@@ -185,6 +193,8 @@ border-radius: 100%;
         
 
 </script>
+
+
 <?php 
 
     if(isset($_POST['addCandidateBtn']))
@@ -233,14 +243,13 @@ border-radius: 100%;
 
         
     ?>
-
       <?php
 
     }
 
 
 
-// require_once("footer.php");
+
 
 
 ?>

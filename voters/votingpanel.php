@@ -7,7 +7,30 @@
     <div class="row my-3">
         <div class="col-12">
     
+<style>
+        .candidate_photo{
+width:80px;
+height: 80px;
+border:1px solid red;
+border-radius: 100%;
 
+}
+.banner1{
+    background-color: #edac42;
+    
+    color: black;
+    
+}
+#nth:nth-child(odd) {
+    background-color: #d3f2e4;
+}
+#nth:nth-child(even) {
+    background-color: #e7d3eb;
+}
+.txt{
+    opacity: 1;
+}
+</style>
             <?php 
                 $fetchingActiveElections = mysqli_query($db, "SELECT * FROM elections WHERE status = 'Active'") or die(mysqli_error($db));
                 $totalActiveElections = mysqli_num_rows($fetchingActiveElections);
@@ -30,11 +53,11 @@
                                 <tr>
                                     <th colspan="4" class=" banner text-white"><h5> ELECTION TOPIC: <?php echo strtoupper($election_topic); ?></h5></th>
                                 </tr>
-                                <tr>
-                                    <th> Photo </th>
-                                    <th> Candidate Details </th>
-                                    <th> Number of Votes </th>
-                                    <th> Action </th>
+                                <tr class="banner1" >
+                                    <th class='txt' > Photo </th>
+                                    <th class='txt' > Candidate Details </th>
+                                    <th class='txt' > Number of Votes </th>
+                                    <th class='txt' > Action </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -51,7 +74,7 @@
                                     $totalVotes = mysqli_num_rows($fetchingVotes);
 
                             ?>
-                                    <tr>
+                                    <tr id="nth">
                                         <td> <img src="<?php echo $candidate_photo; ?>" class="candidate_photo"> </td>
                                         <td><?php echo "<b>" . $candidateData['candidate_name'] . "</b><br />" . $candidateData['candidate_details']; ?></td>
                                         <td><?php echo $totalVotes; ?></td>

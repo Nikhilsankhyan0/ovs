@@ -10,10 +10,10 @@
 
 
 
-    <head>
-    <link rel="icon" href="../assets/images/logo/voting_icon.jpg">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/images/logo/logo-white.png">
     <title>Democralink - Online Voting System</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <style>
@@ -22,6 +22,7 @@
             margin: 0px;
             padding: 0;
             background-color: #f4f4f4;
+            text-align: justify;
         }
 
         header {
@@ -42,22 +43,22 @@
         }
 
         h1 {
-            color: yellow;
+            color: orange;
             text-align: center;
-            text-shadow: 0 0px 2px red;
+            text-shadow:  0 0 1px orangered;
+            /* text-shadow: 0 0px 2px red; */
             font-size: 30px;
-            font-style: italic;
+            /* font-style: italic; */
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
+        .img-fluid {
+            width: 250px;
+            margin-left: 65px;
+            /* height: auto; */
 
         }
 
-        p {
-            font-size: 20px;
-        }
+        
 
         section li {
             color: red;
@@ -70,6 +71,51 @@
             height: 95px;
             text-align: center;
         }
+
+    
+         @media  screen and (min-width:375px) {
+ 
+        h1{
+            font-size: 22px ;
+        }
+
+}
+ @media  screen and (min-width:450px) {
+    
+        h1{
+            font-size: 27px ;
+        }
+
+}
+@media  screen and (min-width:900px) {
+   
+        h1{
+            font-size: 30px ;
+        }
+
+}
+@media  screen and (min-width:765px) {
+   
+   h1{
+       font-size: 29px ;
+   }
+  
+
+}
+@media (min-width:1280px){
+  
+        h1{
+            font-size: 35px ;
+        }
+
+}
+@media  screen and (max-width:412px) {
+   
+        h1{
+            font-size: 28px ;
+        }
+
+} */
     </style>
 </head>
 
@@ -77,16 +123,16 @@
 
 
     <main>
-        <section>
+        
             <h1>Welcome to Democralink</h1>
-            <p>democraLink is an innovative online voting system designed specifically for educational institutions,
+            <p>DemocraLink is an innovative online voting system designed specifically for educational institutions,
                 including schools, colleges, and institutes. This secure platform facilitates seamless and transparent
                 elections, allowing students to actively participate in the democratic process. With democraLink, the
                 traditional paper-based voting system is replaced with a user-friendly digital interface, promoting
                 efficiency and reducing environmental impact</p>
             <!-- <img src="placeholder1.jpg" alt=""> -->
-        </section>
-
+    
+<section style="margin-bottom:20px;" >
         <div class="container-fluid mt-5">
             <!-- banner -->
             <div class="row justify-content-center " id="banner">
@@ -95,18 +141,19 @@
                         a coder</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quas voluptate modi
                         repellendus. Et, eveniet fuga aliquam facilis vel a.</p>
-                   
+                    
 
                 </div>
                 <div class="col-md-4 d-none d-md-block" id="bannerimg">
-                    <img src="../assets/images/logo/secondlogo.png" class="img-fluid ns" width="280px"alt="">
+                <img src="../assets/images/logo/secondlogo.png" class="img-fluid ns"alt="">
+
                 </div>
 
             </div>
+        </div>
+        </section>
 
-
-            <section>
-                <h1>Why Choose Democralink?</h1>
+            <shy Choose Democralink?</h1>
                 <p>Choosing democraLink offers a myriad of advantages that set it apart as the preferred online voting
                     system for educational institutions. Here are compelling reasons to opt for democraLink:
 
@@ -158,6 +205,15 @@
                 </p>
             </section>
     </main>
+    <!-- <div class="foot">
+        <div class="row text-center bg-blue foot">
+            <div class="col-12 my-4">
+            <div class="line">   
+            &copy; 2024 All right reserved.<br> Developed by ayush ,nikhil and nikhil
+            </div>
+            </div>
+        </div>
+    </div> -->
 <?php
 require_once("inc/footer.php");
 ?>
