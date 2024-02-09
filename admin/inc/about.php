@@ -132,10 +132,11 @@
             <!-- banner -->
             <div class="row justify-content-center " id="banner">
                 <div class="col-md-6 col-11" id="bannertext">
-                    <h1>First I wanted to be <br>
-                        a coder</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quas voluptate modi
-                        repellendus. Et, eveniet fuga aliquam facilis vel a.</p>
+                    <h1>Online Voting and Ballot Methods</h1>
+                    <p>Online voting can generally be conducted in two ways — remote online voting and on-site online
+            voting. Your internet voting depends on the options stipulated by your bylaws. Your bylaws are always the
+            first place to check when deciding if you need to run an on-site or remote online vote. In some cases, you
+            may even be allowed to utilize both options!</p>
                     
 
                 </div>

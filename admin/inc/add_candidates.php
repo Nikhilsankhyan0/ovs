@@ -17,7 +17,7 @@ thead {
       height: 75px;
       width: 100%;
     }
-    the
+    
 </style>
 
 <!-- $delete_id = $row['id']; -->
