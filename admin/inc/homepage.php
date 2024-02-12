@@ -158,7 +158,7 @@
             election integrity is maintained. There are no secrets with online voting in an DemocraLink election —
             except your voters’ voting choices, of course!</p> <br>
 
-        <h1>Online Voting and Ballot Methods</h1>
+        <!-- <h1>Online Voting and Ballot Methods</h1> -->
 
         <p id="docs">Online voting can generally be conducted in two ways — remote online voting and on-site online
             voting. Your internet voting depends on the options stipulated by your bylaws. Your bylaws are always the
