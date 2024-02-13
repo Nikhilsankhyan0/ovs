@@ -195,7 +195,7 @@ include_once("inc/navigation.php");
             Your voters don’t have to send anything back — they simply follow the instructions in the email and cast
             their vote, which saves time.</p> <br>
 
-        <p>Your voters will love how easy and simple it is to vote online, and so will you! </p>
+        <p id="docs">Your voters will love how easy and simple it is to vote online, and so will you! </p>
 
     </div>
     <!-- <div class="row text-center bg-blue">
@@ -207,5 +207,5 @@ include_once("inc/navigation.php");
 </body>
 </html>
         <?php
-// require_once("footer.php");
+require_once("inc/footer.php");
         ?>

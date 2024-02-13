@@ -215,15 +215,13 @@
             </div>
         </div>
     </div> -->
+
+</body>
+
+</html>
+
+
+
 <?php
 require_once("inc/footer.php");
 ?>
-
-</body>
-
-</html>
-
-
-</body>
-
-</html>
