@@ -58,20 +58,9 @@
 
 
 
-@media only screen and (max-width: 866px) {
-       .banner{
-        display: none;
-       }
-    
-    }
-    @media only screen and (min-width: 866px) {
-      #hide{
-        display: none;
-      }
-    #hide h2{
-margin-top: 10%
-    }
-}
+
+   
+ 
 
 		.signup_btn{
     width: 100%;
@@ -160,7 +149,7 @@ h2{
                 
                         <div class="mt-4">
                             <div class="d-flex justify-content-center links text-white">
-                                Already Created Account? <a href="index.php" class="ml-2 text-white">Sign In</a>
+                                <p>Already Created Account? </p>  <a href="index.php" class="ml-2 text-white">Sign In</a>
                             </div>
                         </div>
                 <?php
@@ -187,9 +176,9 @@ h2{
                         </div>
                 
                         <div class="mt-4">
-                            <div class="d-flex justify-content-center links text-white">
-                                Don't have an account? <a href="?sign-up=1" class="ml-2 text-white">Sign Up</a>
-                            </div>
+                            
+                             <center>  <p class='text-white' > Don't have an account? </p> <a href="?sign-up=1" class="ml-2 text-white">Sign Up</a></center>
+                           
                             <div class="d-flex justify-content-center links">
                                 <!-- <a href="#" class="text-white">Forgot your password?</a> -->
                             </div>

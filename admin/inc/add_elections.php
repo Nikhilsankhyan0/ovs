@@ -42,8 +42,8 @@ if (isset($_GET['added'])) {
         }
 
 
-    .col-4 {
-  flex: 0 0 33.33%;}
+    .col-12 {
+  flex: 0 0   66%;}
 
     .row {
         display: flex;
@@ -56,7 +56,7 @@ if (isset($_GET['added'])) {
     }
 
     /* Media query for screens with a width less than 600px */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 880px) {
 
         /* Change the flex-direction to make them stack in a column */
         .row {
@@ -64,12 +64,38 @@ if (isset($_GET['added'])) {
         }
     }
 
+@media  screen and (max-width:394px) {
 
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
 
-    @media screen and (max-width:375px) {
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 50px;
+width: 100vw;
+display: none;
 
-        .row h3 {
-            font-size: 13px;
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+.row h3 {
+            font-size: 18px;
         }
         .div1{
             width: 70%;
@@ -84,78 +110,169 @@ if (isset($_GET['added'])) {
 
 }
 .table{
-    width: 10%;
+    width: 100%;
 }
 
 thead{
     height: 20px;
 }
-.th,.td{
-    font-size: 10px;
-    margin-left: 0;
+
 }
-    }
-    @media screen and (max-width:450px) {
+@media  screen and (max-width:412px) {
+
+    .table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
 
 .row h3 {
-    font-size: 22px;
+            font-size: 18px;
+        }
+        .div1{
+            width: 70%;
+        }
+.form-group{
+    width: 330px;
+    margin-left: 5%;
+    height: ;
+}
+.btn{
+    margin-left: 5%;
+
+}
+.table{
+    width: 100%;
 }
 
+thead{
+    height: 20px;
 }
 
-    @media screen and (min-width:450px) {
+} 
+@media  screen and (max-width:1200px) {
 
-        .row h3 {
-            font-size: 23px;
-        }
-    }
-        @media screen and (max-width:500px) {
-            .row h3 {
-            font-size: 15px;
-        }
-        .col-4{
-            flex:  0 0 50%;
-        }
-        }
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 60px;
+width: 100vw;
 
-    
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
 
-    @media screen and (min-width:900px) {
-
-        .row h3 {
-            font-size: 30px;
-        }
-
-    }
-
-    @media screen and (min-width:765px) {
-
-        .row h3 {
-            font-size: 27px;
-        }
-
-
-
-    }
-
-    @media (min-width:1280px) {
-
-        h3 {
-            font-size: 35px;
-        }
-
-    }
-
-    .col-4 {
-  flex: 0 0 33.33%; /* Default width for larger screens, assuming 3 columns in a row */
-  /* Other styles for col-4 */
+}
+tr .txt{
+   margin-top: 5px;
 }
 
-@media screen and (max-width: 600px) {
-  .col-4 {
-    flex: 0 0 50%; /* Adjust the width to 50% for smaller screens */
-  }
+.btn{
+   font-size: 15px;
+ margin-top: 5px;
+ margin-left: 25px;
+
 }
+
+.form-group{
+    width: 286px;
+    margin-left: 5%;
+    height: ;
+}
+.btn{
+    margin-left: 5%;
+
+}
+.table{
+    width: 100%;
+}
+
+thead{
+    height: 20px;
+} }
+@media  screen and (max-width:670px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 16px;
+   text-align: center;
+line-height: 35px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+
+}
+
+@media  screen and (min-width:805px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 40px;
+/* width: 100vw; */
+
+}
+
+
+tr .txt{
+   margin-top: 5px;
+}
+.btn{
+   font-size: 15px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+} 
 </style>
 <link rel="icon" href="../assets/images/logo/logo-white.png">
 
@@ -168,15 +285,15 @@ thead{
                 <input type="text" name="election_topic" placeholder="Election Topic" class="form-control" required />
             </div>
             <div class="form-group">
-                <input type="number" name="number_of_candidates" placeholder="No of Candidates" class="form-control"
+                <input type="number" name="number_of_candidates" placeholder="No of Candidates"   class="form-control"
                     required />
             </div>
             <div class="form-group">
-                <input type="text" onfocus="this.type='Date'" name="starting_date" placeholder="Starting Date"
+                <input type="text" onfocus="this.type='Date'" name="starting_date"   placeholder="Starting Date"
                     class="form-control" required />
             </div>
             <div class="form-group">
-                <input type="text" onfocus="this.type='Date'" name="ending_date" placeholder="Ending Date"
+                <input type="text" onfocus="this.type='Date'" name="ending_date"   placeholder="Ending Date"
                     class="form-control" required />
             </div>
             <input type="submit" value="Add Election" name="addElectionBtn" class="btn btn-success" />
@@ -184,18 +301,18 @@ thead{
     </div>
 
 
-    <div class="col-8 div2">
+    <div class=" col-8 col-12 div2">
         <h3>Upcoming Elections</h3>
         <table class="table">
             <thead>
-                <tr>
-                    <th class="th" scope="col">S.No</th>
-                    <th class="th" scope="col">Election Name</th>
-                    <th class="th" scope="col">No. Of Candidates</th>
-                    <th class="th" scope="col">Starting Date</th>
-                    <th class="th" scope="col">Ending Date</th>
-                    <th class="th" scope="col">Status </th>
-                    <th class="th" scope="col">Action </th>
+                <tr class="banner  ">
+                    <th class="txt" scope="col">S.No</th>
+                    <th class="txt" scope="col">Election Name</th>
+                    <th class="txt"  id="txt2" scope="col"> Candidates</th>
+                    <th class="txt"  id="txt2" scope="col">Starting Date</th>
+                    <th class="txt" id="txt2"  scope="col">Ending Date</th>
+                    <th class="txt" scope="col">Status </th>
+                    <th class="txt" scope="col">Action </th>
 
                 </tr>
             </thead>
@@ -211,25 +328,25 @@ thead{
                         // $delete_id = $row['id'];
                         ?>
                         <tr>
-                            <td  class="td" >
+                            <td  class="txt" >
                                 <?php echo $sno++; ?>
                             </td>
-                            <td class="td" >
+                            <td class="txt" >
                                 <?php echo $row['election_topic']; ?>
                             </td>
-                            <td class="td" >
+                            <td class="txt"  id="txt2">
                                 <?php echo $row['no_of_candidates']; ?>
                             </td>
-                            <td class="td" >
+                            <td class="txt"  id="txt2">
                                 <?php echo $row['starting_date']; ?>
                             </td>
-                            <td class="td" >
+                            <td class="txt"  id="txt2">
                                 <?php echo $row['ending_date']; ?>
                             </td>
-                            <td class="td" >
+                            <td class="txt" >
                                 <?php echo $row['status']; ?>
                             </td> 
-                            <td>
+                            <td class="txt">
                                 <!-- <a href="#" class="btn btn-sm btn-warning"> Edit </a> -->
                                 <button class="btn btn-sm btn-danger" onclick="DeleteData(<?php echo $election_id; ?>)"> Delete
                                 </button>

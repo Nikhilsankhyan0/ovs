@@ -6,6 +6,126 @@ border:1px solid red;
 border-radius: 100%;
 
 }
+
+
+@media  screen and (max-width:394px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+/* display: none; */
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+
+}
+@media  screen and (max-width:412px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 5px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}}
+
+@media  screen and (max-width:670px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 16px;
+   text-align: center;
+line-height: 35px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+
+}
+
+@media  screen and (min-width:805px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+/* width: 100vw; */
+
+}
+
+
+tr .txt{
+   margin-top: 5px;
+}
+.btn{
+   font-size: 15px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+}
+
     thead{
         background-color: #f39c12;
     }
@@ -19,14 +139,14 @@ border-radius: 100%;
         <h3>Elections</h3>
         <table class="table">
             <thead>
-                <tr>
-                    <th scope="col">S.No</th>
-                    <th scope="col">Election Name</th>
-                    <th scope="col">Candidates</th>
-                    <th scope="col">Starting Date</th>
-                    <th scope="col">Ending Date</th>
-                    <th scope="col">Status </th>
-                    <th scope="col">Action </th>
+                <tr class="banner">
+                    <th class="txt" scope="col">S.No</th>
+                    <th class="txt" scope="col">Election Name</th>
+                    <th class="txt" id="txt2" scope="col">Candidates</th>
+                    <th class="txt"  id="txt2" scope="col">Starting Date</th>
+                    <th class="txt"  id="txt2"scope="col">Ending Date</th>
+                    <th class="txt" scope="col">Status </th>
+                    <th class="txt" scope="col">Action </th>
                     
                 </tr>
             </thead>
@@ -43,14 +163,14 @@ border-radius: 100%;
                             $election_id = $row['id'];
                             
                 ?>
-                            <tr>
-                                <td><?php echo $sno++; ?></td>
-                                <td><?php echo $row['election_topic']; ?></td>
-                                <td><?php echo $row['no_of_candidates']; ?></td>
-                                <td><?php echo $row['starting_date']; ?></td>
-                                <td><?php echo $row['ending_date']; ?></td>
-                                <td><?php echo $row['status']; ?></td>
-                                <td> 
+                            <tr class="banner" >
+                                <td class="txt"><?php echo $sno++; ?></td>
+                                <td class="txt"><?php echo $row['election_topic']; ?></td>
+                                <td class="txt" id="txt2"><?php echo $row['no_of_candidates']; ?></td>
+                            <td class="txt" id="txt2"><?php echo $row['starting_date']; ?></td>
+                                <td class="txt" id="txt2"><?php echo $row['ending_date']; ?></td>
+                                <td class="txt"><?php echo $row['status']; ?></td>
+                                <td class="txt"> 
                                     <a href="index.php?viewResult=<?php echo $election_id; ?>" class="btn btn-sm btn-success"> View Results </a>
                                 </td>
                             </tr>

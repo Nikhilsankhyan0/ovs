@@ -5,12 +5,15 @@ error_reporting(0);
 
 <style>
     .candidate_photo{
-width:80px;
-height: 80px;
+width:70px;
+height: 70px;
 border:1px solid red;
 border-radius: 100%;
+margin-top: 5px;
+margin-bottom: 5px;
 
 }
+
 thead {
         background-color: #f39c12;
       overflow: hidden;
@@ -18,6 +21,238 @@ thead {
       width: 100%;
     }
     
+    
+    .col-12 {
+  flex: 0 0   66%;}
+
+    .row {
+        display: flex;
+        /* Additional styles for your row container */
+    }
+
+    /* Your styles for the divs within the row */
+    .row>div {
+        /* Your styles for the divs */
+    }
+
+    /* Media query for screens with a width less than 600px */
+    @media screen and (max-width: 880px) {
+
+        /* Change the flex-direction to make them stack in a column */
+        .row {
+            flex-direction: column;
+        }
+    }
+
+@media  screen and (max-width:394px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 50px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+.row h3 {
+            font-size: 18px;
+        }
+        .div1{
+            width: 70%;
+        }
+.form-group{
+    width: 330px;
+    margin-left: 5%;
+    height: ;
+}
+.btn{
+    margin-left: 5%;
+
+}
+.table{
+    width: 100%;
+}
+
+thead{
+    height: 20px;
+}
+
+}
+@media  screen and (max-width:412px) {
+
+    .table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+.row h3 {
+            font-size: 18px;
+        }
+        .div1{
+            width: 70%;
+        }
+.form-group{
+    width: 330px;
+    margin-left: 5%;
+    height: ;
+}
+.btn{
+    margin-left: 5%;
+
+}
+.table{
+    width: 100%;
+}
+
+thead{
+    height: 20px;
+}
+
+} 
+@media  screen and (max-width:1200px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 60px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 15px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+.form-group{
+    width: 286px;
+    margin-left: 5%;
+    height: ;
+}
+.btn{
+    margin-left: 5%;
+
+}
+.table{
+    width: 100%;
+}
+
+thead{
+    height: 20px;
+} }
+@media  screen and (max-width:670px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 16px;
+   text-align: center;
+line-height: 35px;
+width: 100vw;
+
+}
+.table #txt2{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 65px;
+width: 100vw;
+display: none;
+
+}
+tr .txt{
+   margin-top: 5px;
+}
+
+.btn{
+   font-size: 10px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+
+
+}
+
+@media  screen and (min-width:805px) {
+
+.table .txt{
+   padding: 0.5px;
+   font-size: 15px;
+   text-align: center;
+line-height: 40px;
+/* width: 100vw; */
+
+}
+
+
+tr .txt{
+   margin-top: 5px;
+}
+.btn{
+   font-size: 15px;
+ margin-top: 5px;
+ margin-left: 25px;
+
+}
+} 
 </style>
 
 <!-- $delete_id = $row['id']; -->
@@ -67,7 +302,7 @@ thead {
 
 
 <div class="row my-3">
-    <div class="col-4">
+    <div class="col-4 div1">
         <h3>Add New Candidates</h3>
         <form method="POST" enctype="multipart/form-data">
             <div class="form-group">
@@ -107,8 +342,9 @@ thead {
                 <input type="text" name="candidate_name" placeholder="Candidate Name" class="form-control" required />
             </div>
             <div class="form-group">
-                <input type="file" name="candidate_photo" class="form-control" required />
+                <input type="file"  id="myImage" name="candidate_photo" class="form-control" onclick="openPopup()" required />
             </div>
+            
             <div class="form-group">
                 <input type="text" name="candidate_details" placeholder="Candidate Details" class="form-control" required />
             </div>
@@ -116,17 +352,17 @@ thead {
         </form>
     </div>   
 
-    <div class="col-8">
+    <div class="col-8 col-12 div2">
         <h3>Candidate Details</h3>
         <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">S.No</th>
-                    <th scope="col">Photo</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Details</th>
-                    <th scope="col">Election</th>
-                    <th scope="col">Action </th>
+            <thead >
+                <tr class="banner">
+                    <th class="txt" scope="col">S.No</th>
+                    <th class="txt" id="txt2"scope="col">Photo</th>
+                    <th class="txt" scope="col">Name</th>
+                    <th class="txt" id="txt2"scope="col">Details</th>
+                    <th class="txt" scope="col">Election</th>
+                    <th class="txt" scope="col">Action </th>
                     
                 </tr>
             </thead>
@@ -152,12 +388,12 @@ $delete_id = $row['id'];
                 ?>
                             <tr>
                                 <td><?php echo $sno++; ?></td>
-                                <td> <img src="<?php echo $candidate_photo; ?>" class="candidate_photo" />    </td>
-                                <td><?php echo $row['candidate_name']; ?></td>
-                                <td><?php echo $row['candidate_details']; ?></td>
-                                <td><?php echo $election_name; ?></td>
-                                <td> 
-                                    <!-- <a href="#" class="btn btn-sm btn-warning"> Edit </a> -->
+                                <td  class="txt hover" id="txt2"> <img src="<?php echo $candidate_photo; ?>" class="candidate_photo" />    </td>
+                                <td class="txt"><?php echo $row['candidate_name']; ?></td>
+                                <td  class="txt" id="txt2"><?php echo $row['candidate_details']; ?></td>
+                                <td class="txt"><?php echo $election_name; ?></td>
+                                <!-- <a href="#" class="btn btn-sm btn-warning"> Edit </a> -->
+                                <td class="txt"> 
                                     <button class="btn btn-sm btn-danger" onclick="DeleteData(<?php echo $delete_id; ?>)"> Delete </button>
 
                                 </td>
@@ -236,13 +472,43 @@ $delete_id = $row['id'];
         }
 
         // Photograph Logic Ends
-        
+        ?>
+        <script>
+        function openPopup() {
+            // Get a reference to the popup element
+            const popup = document.getElementById("popup");
+          
+            // Clear the image source attribute (if present) to prevent loading new images on repeat clicks
+            document.getElementById("popup-image").src = "";
+          
+            // Create and set the image source dynamically
+            const imageSrc = document.getElementById("myImage").src; // Get the src of the clicked image
+            const popupImage = document.getElementById("popup-image");
+            popupImage.src = imageSrc;
+          
+            // Display the popup
+            popup.style.display = "block";
+          
+            // Close the popup when clicking outside the image
+            popup.addEventListener('click', (event) => {
+              if (event.target === popup || event.target === popupImage) {
+                closePopup();
+              }
+            });
+          
+            // Or add a close button (optional)
+            const closeButton = document.getElementById("close-button");
+            closeButton.addEventListener('click', closePopup);
+          }
+          
+          function closePopup() {
+            document.getElementById("popup").style.display = "none";
+          }</script>
 
 
 
 
         
-    ?>
       <?php
 
     }
