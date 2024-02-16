@@ -148,36 +148,37 @@
             </div>
         </div>
         </section>
-
-            <shy Choose Democralink?</h1>
+        <div class="keys">
+        <h1>Why Choose Democralink?</h1>
                 <p>Choosing democraLink offers a myriad of advantages that set it apart as the preferred online voting
-                    system for educational institutions. Here are compelling reasons to opt for democraLink:
+                    system for educational institutions. Here are compelling reasons to opt for democraLink:  </p>
 
-                    <li> Tailored for Education: democraLink is specifically designed for schools, colleges, and
+                    <li id="links"> Tailored for Education: democraLink is specifically designed for schools, colleges, and
                         institutes, addressing the unique needs and requirements of educational environments.</li>
 
-                    <li> User-Friendly Interface: The platform features an intuitive and easy-to-use interface, ensuring
+                    <li id="links"> User-Friendly Interface: The platform features an intuitive and easy-to-use interface, ensuring
                         that both candidates and voters can navigate the system effortlessly, promoting widespread
                         participation.</li>
 
-                    <li> Enhanced Security Measures: democraLink prioritizes the security and integrity of the electoral
+                    <li id="links"> Enhanced Security Measures: democraLink prioritizes the security and integrity of the electoral
                         process, employing state-of-the-art security measures to protect against unauthorized access and
                         tampering, instilling confidence in the reliability of the results.
 
-                    <li> Efficiency and Sustainability: By replacing traditional paper ballots with a digital platform,
+                    <li id="links"> Efficiency and Sustainability: By replacing traditional paper ballots with a digital platform,
                         democraLink enhances efficiency and reduces environmental impact, contributing to a more
                         sustainable and eco-friendly election process.</li>
 
-                    <li> Real-time Result Tracking: democraLink provides real-time tracking of election results,
+                    <li id="links"> Real-time Result Tracking: democraLink provides real-time tracking of election results,
                         offering instant notifications to candidates and administrators, creating a dynamic and engaging
                         voting experience. </li>
-                </p>
+              
                 <img src="placeholder2.jpg" alt="Democralink Features Image">
+                </div>
             </section>
 
             <section>
                 <h1>Secure and Reliable</h1>
-                <p>democraLink is synonymous with security and reliability, providing educational institutions with a
+                <p >DemocraLink is synonymous with security and reliability, providing educational institutions with a
                     trustworthy online voting platform. With a robust and advanced security infrastructure, democraLink
                     ensures the confidentiality and integrity of every vote cast. Utilizing state-of-the-art encryption
                     techniques, the platform safeguards against unauthorized access and protects sensitive data,
@@ -198,7 +199,7 @@
                     commitment to adherence to legal and ethical standards. The platform complies with data protection
                     regulations and privacy norms, reinforcing its dedication to maintaining the highest standards of
                     integrity. <br><br>
-                </p>
+                    </p>
             </section>
     </main>
     <!-- <div class="foot">
@@ -216,11 +217,13 @@
 
 require_once("footer.php");?>
 
+<script>
+    let anchor = document.getElementById('#links');
+    for (let i= 0 ; i<anchor.length ; i++){
+        anchor[i].style.anchor="yellow";
+    }
+</script>
 </body>
 
 </html>
 
-
-</body>
-
-</html>
