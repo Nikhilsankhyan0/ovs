@@ -104,9 +104,11 @@
 
 }
 .ns{
-    height: 400px;
+    height: 300px;
     width: 300px;
     border-radius: 100%;
+    border: 2px solid orange;
+    box-shadow:  0 0   10px red;
 }
     </style>
 <section style="margin-bottom:20px;" >
