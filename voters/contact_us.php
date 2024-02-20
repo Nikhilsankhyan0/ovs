@@ -117,12 +117,16 @@
             <div class="row justify-content-center " id="banner">
                 <div class="col-md-6 col-11" id="bannertext">
                 <h1>Ayush Kaushal</h1>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit doloribus voluptates assumenda alias ad consequuntur?</p>
+                    <p> kaushalayush66@gmail.com
+
+8219953197
+V.P.O Sunhani Tehsil Jhandutta District
+Bilaspur (H.P)174029</p>
                     
 
                 </div>
                 <div class="col-md-4 d-none d-md-block" id="bannerimg">
-                <img src="../assets/images/logo/ayush.jpg" class="img-fluid ns"alt="">
+                <img src="../assets/images/logo/ayush1.jpg" class="img-fluid ns"alt="">
 
                 </div>
 
