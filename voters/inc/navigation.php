@@ -185,6 +185,7 @@ nav{
             <a href="about.php"> About</a>
 
             <a href="votingpanel.php">Voters Pannel</a>
+            <a href="contact_us.php">contact us</a>
 
 
             <a href="logout.php">Logout</a>

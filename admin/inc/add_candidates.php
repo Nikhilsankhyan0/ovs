@@ -17,7 +17,7 @@ margin-bottom: 5px;
 thead {
         background-color: #f39c12;
       overflow: hidden;
-      height: 75px;
+      height: 50px;
       width: 100%;
     }
     
