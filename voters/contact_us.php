@@ -2,6 +2,7 @@
     require_once("inc/header.php");
     require_once("inc/navigation.php");
 ?>
+    <link rel="icon" href="../assets/images/logo/logo-white.png"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
          body {
@@ -48,7 +49,7 @@
         
 
         section li {
-            color: red;
+            /* color: red; */
         }
 
         .foot {
@@ -110,6 +111,9 @@
     border: 2px solid orange;
     box-shadow:  0 0   10px red;
 }
+li::marker{
+    content : "";
+}
     </style>
 <section style="margin-bottom:20px;" >
         <div class="container-fluid mt-5">
@@ -117,16 +121,21 @@
             <div class="row justify-content-center " id="banner">
                 <div class="col-md-6 col-11" id="bannertext">
                 <h1>Ayush Kaushal</h1>
-                    <p> kaushalayush66@gmail.com
+                <p> Hi there! I'm an enthusiastic BCA student who has a talent for full-stack PHP development. I enjoy learning about the world of technology and coding. I live in the lovely town of Sunhani. I'm constantly keen to learn new things and broaden my skill set because I have a strong interest in web development. Accompany me as I recount my experiences and offer insights into the fascinating realm of programming.</p>
+                    <p>  <li> <i class="fa-solid fa-envelope"></i>  kaushalayush66@gmail.com
 
-8219953197
-V.P.O Sunhani Tehsil Jhandutta District
-Bilaspur (H.P)174029</p>
+
+</li>
+                    <li> <i class="fa-solid fa-headset"></i> 8219953197</li>
+                    <li><i class="fa-solid fa-computer"></i> Front End Developer
+                    <li> <i class="fa-solid fa-location-pin"></i> V.P.O Sunhani Tehsil Jhandutta District
+Bilaspur (H.P)174029></li>
+                    <li> <a href="https://www.instagram.com/_.ayush_kaushal._"><i class="fa-brands fa-instagram"></i></a></li></p>
                     
 
                 </div>
                 <div class="col-md-4 d-none d-md-block" id="bannerimg">
-                <img src="../assets/images/logo/ayush1.jpg" class="img-fluid ns"alt="">
+                <img src="../assets/images/logo/ayush2.jpg" class="img-fluid ns"alt="">
 
                 </div>
 
@@ -144,9 +153,15 @@ Bilaspur (H.P)174029</p>
                 </div>
                 <div class="col-md-6 col-11 " id="bannerimg">
                 <h1>Nikhil Kumar</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia natus ex eveniet praesentium, accusamus velit voluptatem cumque dolorum, ipsam omnis cum accusantium quod ut labore?</p>
+                    <p>Greetings! I'm an enthusiastic BCA student that has a talent for creating visually striking user interfaces. My curiosity is piqued by exploring the fascinating realm of technology and design. Tucked away in the quaint village of Lurhani, I'm constantly trying to push the boundaries of my creativity and improve my UI design abilities. My passion for web development drives me to become well-versed in new ideas and methods. Come along as I discuss my experiences and thoughts into the fascinating field of seamless user experience design.</p>
+                    <p>  <li> <i class="fa-solid fa-envelope"></i> nk9015049403@gmail.com
 
-                </div>
+
+</li>
+                    <li> <i class="fa-solid fa-headset"></i> 9015049403</li>
+                    <li><i class="fa-solid fa-computer"></i> UI Designer
+                    <li> <i class="fa-solid fa-location-pin"></i>Village - Lurhani , PO - Kotlu brahmana , Tehsil - Ghumarwin , district - Bilaspur , State - Himachal Pradesh</li>
+                    </li></p></div>
 
             </div>
         </div>
@@ -157,8 +172,16 @@ Bilaspur (H.P)174029</p>
             <div class="row justify-content-center " id="banner">
                 <div class="col-md-6 col-11" id="bannertext">
                 <h1>Nikhil Sankhyan</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga facere optio ullam.</p>
-                    
+                    <p>Hello there! I'm a passionate BCA student with a knack for PHP full-stack development. Residing in the beautiful town of Ghumarwin, I find joy in exploring the world of coding and technology. With a keen interest in web development, I'm always eager to learn and expand my skill set. Follow along as I share my journey and insights into the exciting world of programming..</p>
+                    <p>  <li> <i class="fa-solid fa-envelope"></i> sankhyannikhil0@@gmail.com
+
+
+</li>
+                    <li> <i class="fa-solid fa-headset"></i> 8894425304</li>
+                    <li><i class="fa-solid fa-computer"></i> Full Stack Developer
+                    <li> <i class="fa-solid fa-location-pin"></i> V. Bhadrog Tehsil Ghumarwin District
+Bilaspur (H.P)174021></li>
+                    <li> <a href="https://www.instagram.com/ig__nikhil0/"><i class="fa-brands fa-instagram"></i></a></li></p>
 
                 </div>
                 <div class="col-md-4 d-none d-md-block" id="bannerimg">
